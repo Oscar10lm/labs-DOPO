@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=BabyPandas
+comment0.text=\ BabyPandas.java\r\n\ \r\n\ @author\ ESCUELA\ 2026-01\r\n
+comment1.params=
+comment1.target=BabyPandas()
+comment2.params=name
+comment2.target=void\ define(java.lang.String)
+comment3.params=a\ dataFrame
+comment3.target=void\ assign(java.lang.String,\ java.lang.String[][])
+comment4.params=a
+comment4.target=int[]\ shape(java.lang.String)
+comment5.params=a\ b\ op\ parameters
+comment5.target=void\ assignUnary(java.lang.String,\ java.lang.String,\ char,\ java.lang.String[])
+comment6.params=a\ b\ op\ c
+comment6.target=void\ assignBinary(java.lang.String,\ java.lang.String,\ char,\ java.lang.String)
+comment7.params=variable\ rows
+comment7.target=java.lang.String\ head(java.lang.String,\ int)
+comment8.params=
+comment8.target=boolean\ ok()
+numComments=9
