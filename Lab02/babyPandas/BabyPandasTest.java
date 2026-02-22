@@ -2,6 +2,12 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+/** BabyPandas.java
+ * Pruebas Unitarias para la clase BabyPandas
+ *
+ * @author Juan Gaitan- Oscar Lasso
+ */
+
 public class BabyPandasTest {
 
     private BabyPandas bp;

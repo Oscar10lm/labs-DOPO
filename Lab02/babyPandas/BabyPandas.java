@@ -3,7 +3,7 @@ import java.util.HashMap;
 /** BabyPandas.java
  * Mini motor para administrar variables tipo DataFrame.
  *
- * @author ESCUELA 2026-01
+ * @author ESCUELA 2026-01, Oscar Lasso, Juan Gaitan
  */
     
 public class BabyPandas{

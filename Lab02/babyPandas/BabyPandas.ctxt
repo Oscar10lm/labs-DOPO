@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=BabyPandas
-comment0.text=\ BabyPandas.java\r\n\ Mini\ motor\ para\ administrar\ variables\ tipo\ DataFrame.\r\n\r\n\ @author\ ESCUELA\ 2026-01\r\n
+comment0.text=\ BabyPandas.java\r\n\ Mini\ motor\ para\ administrar\ variables\ tipo\ DataFrame.\r\n\r\n\ @author\ ESCUELA\ 2026-01,\ Oscar\ Lasso,\ Juan\ Gaitan\r\n
 comment1.params=
 comment1.target=BabyPandas()
 comment10.params=source\ columns

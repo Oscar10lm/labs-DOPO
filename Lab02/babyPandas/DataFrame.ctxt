@@ -1,7 +1,9 @@
 #BlueJ class context
 comment0.target=DataFrame
+comment0.text=\r\n\ Clase\ que\ representa\ una\ estructura\ tipo\ tabla,\r\n\ compuesta\ por\ columnas\ y\ filas\ de\ datos\ en\ formato\ String.\r\n\ Permite\ almacenar\ informaci\u00F3n\ tabular\ y\ consultar\ su\ dimensi\u00F3n.\r\n\ @autor\ juan\ gaitan\ -\ oscar\ lasso\r\n
 comment1.params=data\ columns
 comment1.target=DataFrame(java.lang.String[][],\ java.lang.String[])
+comment1.text=\r\n\ Constructor\ que\ crea\ un\ DataFrame\ a\ partir\ de\ una\ matriz\ de\ datos\r\n\ y\ un\ arreglo\ de\ nombres\ de\ columnas.\r\n\ \r\n\ Valida\ que\ cada\ fila\ tenga\ la\ misma\ cantidad\ de\ elementos\ que\ columnas.\r\n\ Si\ una\ fila\ no\ cumple\ con\ el\ tama\u00F1o\ correcto,\ no\ debe\ ser\ incluida.\r\n\ \r\n
 comment2.params=rows\ column
 comment2.target=DataFrame\ loc(int[],\ java.lang.String)
 comment3.params=values
@@ -10,6 +12,7 @@ comment4.params=dfs\ axis
 comment4.target=DataFrame\ concat(DataFrame[],\ byte)
 comment5.params=
 comment5.target=int[]\ shape()
+comment5.text=\r\n\ Retorna\ la\ dimensi\u00F3n\ del\ DataFrame.\r\n\ \r\n\ El\ primer\ valor\ representa\ el\ n\u00FAmero\ de\ filas\ v\u00E1lidas.\r\n\ El\ segundo\ valor\ representa\ el\ n\u00FAmero\ de\ columnas.\r\n\ \r\n
 comment6.params=rows
 comment6.target=java.lang.String\ head(int)
 comment7.params=df
