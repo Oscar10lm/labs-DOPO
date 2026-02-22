@@ -1,7 +1,25 @@
 public class DataFrame {
     
+    private String [] columns;
+    private String [][] data;
+    private int [] shape = {0,0};
+
     
     public DataFrame(String [][] data, String [] columns){
+        this.columns = columns;
+        this.data = data;
+    
+        for (int i = 0; i < columns.length;i++) {
+            this.columns[i] = columns[i];
+        }
+        
+        for (int i = 0; i < data.length; i++) {
+            this.data[i] = data[i];
+        }
+        
+        this.shape[0] = data.length;
+        this.shape[1] = columns.length;
+
     }
     
     public DataFrame loc(int [] rows, String columns){
@@ -18,7 +36,7 @@ public class DataFrame {
     }
 
     public int [] shape(){
-        return null;
+        return this.shape;
     }    
     
    
