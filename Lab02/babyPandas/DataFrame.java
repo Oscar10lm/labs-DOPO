@@ -3,13 +3,27 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
+/**
+ * Clase que representa una estructura tipo tabla,
+ * compuesta por columnas y filas de datos en formato String.
+ * Permite almacenar información tabular y consultar su dimensión.
+ * @autor juan gaitan - oscar lasso
+ */
 
 public class DataFrame {
-
+    
     private final String[][] data;
     private final String[] columns;
 
+    /**
+     * Constructor que crea un DataFrame a partir de una matriz de datos
+     * y un arreglo de nombres de columnas.
+     * 
+     * Valida que cada fila tenga la misma cantidad de elementos que columnas.
+     * Si una fila no cumple con el tamaño correcto, no debe ser incluida.
+     * 
+     */
+    
     public DataFrame(String[][] data, String[] columns){
         this.columns = columns == null ? new String[0] : Arrays.copyOf(columns, columns.length);
 
@@ -79,8 +93,7 @@ public class DataFrame {
         String[][] selectedData = selectedRows.toArray(new String[0][]);
         return new DataFrame(selectedData, Arrays.copyOf(columns, columns.length));
     }
-
-   
+    
 
     public DataFrame concat(DataFrame[] dfs, byte axis){
         List<DataFrame> all = new ArrayList<>();
@@ -155,6 +168,14 @@ public class DataFrame {
         return new DataFrame(newData, Arrays.copyOf(this.columns, this.columns.length));
     }
 
+    /**
+     * Retorna la dimensión del DataFrame.
+     * 
+     * El primer valor representa el número de filas válidas.
+     * El segundo valor representa el número de columnas.
+     * 
+     */
+    
     public int[] shape(){
         return new int[] {data.length, columns.length};
     }

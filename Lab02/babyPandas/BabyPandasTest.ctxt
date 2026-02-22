@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=BabyPandasTest
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ shouldDefineAssignShapeAndHead()
+comment3.params=
+comment3.target=void\ shouldNotAssignUndefinedVariable()
+comment4.params=
+comment4.target=void\ shouldDoUnaryOperations()
+comment5.params=
+comment5.target=void\ shouldNotDoUnaryWhenRowsAreInvalidNumbers()
+comment6.params=
+comment6.target=void\ shouldConcatByRowsAndColumns()
+comment7.params=
+comment7.target=void\ shouldNotConcatWithInvalidOperator()
+numComments=8

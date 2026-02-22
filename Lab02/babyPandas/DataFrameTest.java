@@ -3,6 +3,14 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+/**
+ * Clase que testea una estructura tipo tabla,
+ * compuesta por columnas y filas de datos en formato String.
+ * Permite almacenar información tabular y consultar su dimensión.
+ * @autor juan gaitan - oscar lasso
+ */
+
+
 public class DataFrameTest{
 
     
