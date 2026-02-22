@@ -2,7 +2,7 @@
 comment0.target=DataFrame
 comment1.params=data\ columns
 comment1.target=DataFrame(java.lang.String[][],\ java.lang.String[])
-comment2.params=rows\ columns
+comment2.params=rows\ column
 comment2.target=DataFrame\ loc(int[],\ java.lang.String)
 comment3.params=values
 comment3.target=DataFrame\ select(java.lang.String[])

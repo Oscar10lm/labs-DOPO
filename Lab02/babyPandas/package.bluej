@@ -1,33 +1,20 @@
 #BlueJ package file
-dependency1.from=DataFrameTest
+dependency1.from=BabyPandas
 dependency1.to=DataFrame
 dependency1.type=UsesDependency
-dependency2.from=BabyPandas
+dependency2.from=DataFrameTest
 dependency2.to=DataFrame
 dependency2.type=UsesDependency
-<<<<<<< HEAD:babyPandas/package.bluej
 editor.fx.0.height=737
 editor.fx.0.width=814
 editor.fx.0.x=360
 editor.fx.0.y=26
-objectbench.height=168
+objectbench.height=143
 objectbench.width=901
 package.divider.horizontal=0.5997361477572559
-package.divider.vertical=0.7587623220153341
-package.editor.height=548
-package.editor.width=1397
-=======
-editor.fx.0.height=744
-editor.fx.0.width=1376
-editor.fx.0.x=-8
-editor.fx.0.y=-8
-objectbench.height=144
-objectbench.width=901
-package.divider.horizontal=0.5997357992073976
-package.divider.vertical=0.7931506849315069
+package.divider.vertical=0.7929901423877328
 package.editor.height=572
-package.editor.width=1394
->>>>>>> a4725c0d31cd9e22204223fa92abc3000c8d4c2a:Lab02/babyPandas/package.bluej
+package.editor.width=1397
 package.editor.x=0
 package.editor.y=0
 package.frame.height=830
